@@ -138,43 +138,51 @@ def build_sentence(words):
 # === CLOSE: Rule-Based Sentence Construction ===
 
 💡 How to Extend the Project
-Add More Actions: Add to the actions list and collect new data.
+Add More Actions
+Extend the actions list and collect new gesture data using the existing data collection pipeline.
 
-Improve Sentence Logic: Expand build_sentence() or apply NLP.
+Improve Sentence Logic
+Enhance the build_sentence() function or integrate NLP tools to allow smarter sentence generation based on detected signs.
 
-Add Voice Output: Use pyttsx3 or gTTS for text-to-speech.
+Add Voice Output
+Use libraries like pyttsx3 (offline) or gTTS (online) to speak out the predicted sentences.
 
-Improve Model: Collect more data, tune the model, or add layers.
+Improve Model Accuracy
+Gather more diverse training data, fine-tune the model architecture, or add advanced layers like Dropout and BatchNormalization.
 
 👨🏽‍🔬 For Researchers
-This project is designed for open contribution. You’re welcome to:
+This project is built for open collaboration. You’re encouraged to:
 
 Expand the action set for Kenyan Sign Language
 
-Build more expressive sentence logic
+Create more expressive and accurate sentence logic
 
-Analyze regional variations of signs
+Study and map regional sign variations
 
-Add multilingual translation support
+Add multilingual translation capabilities
 
-Please consider contributing back to benefit the Kenyan community and global accessibility.
+Your contributions can advance digital inclusion in Kenya and worldwide.
 
 🤝 Contributing
 Fork this repository
 
-Clone your fork
+Clone your fork:
 
-Make changes and commit
+bash
+Copy
+Edit
+git clone https://github.com/your-username/kenyan-sign-language-recognition.git
+Make your changes and commit
 
 Push to your fork
 
-Create a pull request
+Open a pull request
 
 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See LICENSE for details.
 
 👋 Final Note
-Kenyan Sign Language deserves wider visibility and digital support. This project is a foundation for building that future, and you’re invited to improve it.
+Kenyan Sign Language deserves greater visibility and technical support. This project lays the groundwork for that effort — and you are warmly invited to help improve it.
 
-
-– Ibrahim Shedoh(Project Author, Nairobi, Kenya)
+– Ibrahim Shedoh
+Nairobi, Kenya
