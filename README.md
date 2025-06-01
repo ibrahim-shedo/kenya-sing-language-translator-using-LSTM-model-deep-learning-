@@ -165,3 +165,6 @@ This project is licensed under the MIT License.
 
 👋 Final Note
 Kenyan Sign Language deserves wider visibility and digital support. This project is a foundation for building that future, and you’re invited to improve it.
+
+
+– Ibrahim Shedoh(Project Author, Nairobi, Kenya)
