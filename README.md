@@ -114,46 +114,61 @@ def build_sentence(words):
     else:
         return " ".join(words).capitalize() + "."
 ```
-💡 How to Extend the Project
-Add More Actions: Add to the actions list and collect new data.
+## 💡 How to Extend the Project
 
-Improve Sentence Logic: Expand build_sentence() or apply NLP.
+- **Add More Actions:**  
+  Add new gestures to the `actions` list and collect additional data using the data collection pipeline.
 
-Add Voice Output: Use pyttsx3 or gTTS for text-to-speech.
+- **Improve Sentence Logic:**  
+  Expand the `build_sentence()` function with rule-based logic or integrate natural language processing (NLP) for dynamic sentence generation.
 
-Improve Model: Collect more data, tune the model, or add layers.
+- **Add Voice Output:**  
+  Integrate libraries like [`pyttsx3`](https://pypi.org/project/pyttsx3/) or [`gTTS`](https://pypi.org/project/gTTS/) to convert recognized sign sequences into speech.
 
-👨🏽‍🔬 For Researchers
-This project is designed for open contribution. You’re welcome to:
+- **Improve the Model:**  
+  Gather more diverse training data, fine-tune hyperparameters, increase model complexity, or try different architectures for better accuracy.
 
-Expand the action set for Kenyan Sign Language
+---
 
-Build more expressive sentence logic
+## 👨🏽‍🔬 For Researchers
 
-Analyze regional variations of signs
+This project is designed for **open collaboration**. If you're a researcher or developer interested in African sign languages, you are encouraged to:
 
-Add multilingual translation support
+- Expand the **action set** for Kenyan Sign Language (KSL)
+- Improve the **sentence construction logic**
+- Study **regional dialects** and variations in KSL
+- Add **multilingual translation support**
 
-Please consider contributing back to benefit the Kenyan community and global accessibility.
+Please consider contributing back to help improve **accessibility** and support **the Kenyan Deaf community**.
 
-🤝 Contributing
-Fork this repository
+---
 
-Clone your fork
+## 🤝 Contributing
 
-Make changes and commit
+1. **Fork** this repository  
+2. **Clone** your fork locally  
+3. **Make changes** and commit  
+4. **Push** to your fork  
+5. **Create a pull request**
 
-Push to your fork
+We welcome pull requests for improving code quality, adding new features, or expanding the sign language dataset.
 
-Create a pull request
+---
 
-📄 License
-This project is licensed under the MIT License.
+## 📄 License
 
-👋 Final Note
-Kenyan Sign Language deserves wider visibility and digital support. This project is a foundation for building that future, and you’re invited to improve it.
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute it with proper attribution.
 
-– Omar (Project Author, Nairobi, Kenya)
+---
+
+## 👋 Final Note
+
+Kenyan Sign Language deserves broader recognition and technological support.
+
+This project is only the beginning.  
+We invite developers, linguists, and researchers to help build a smarter, inclusive digital future for the Deaf community.
+
+**– Omar (Project Author, Nairobi, Kenya)**
 
 📦 Example Code Snippets
 🔴 Data Collection
