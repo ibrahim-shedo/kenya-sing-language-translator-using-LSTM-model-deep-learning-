@@ -87,11 +87,12 @@ model.add(Dense(64, activation='relu'))
 model.add(Dense(32, activation='relu'))
 model.add(Dense(len(actions), activation='softmax'))
 ```
-```
+
 Training Setup
 python
 Copy
 Edit
+```
 from keras.callbacks import EarlyStopping
 
 early_stop = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
@@ -101,13 +102,15 @@ model.fit(X_train, y_train,
           epochs=100,
           batch_size=32,
           callbacks=[early_stop])
+```
 🗣️ Real-Time Prediction & Sentence Construction
 Logic for Sentence Construction
-```
-```
+
+
 python
 Copy
 Edit
+```
 def build_sentence(words):
     word_set = set(words)
     if word_set >= {'help-me', 'please', 'me'}:
