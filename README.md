@@ -2,6 +2,15 @@
 
 This project is an open-source effort to build a real-time Sign Language Recognition system focused on **Kenyan Sign Language (KSL)**. It's designed to be an accessible base for researchers, students, or developers who wish to expand or adapt the model further.
 
+There are **two main code paths** included in this project:
+
+- **🧪 Tutorial Code:**  
+  Used during data collection and debugging. This version helps with **retaking actions** that didn’t perform well and is useful for experimentation or when dealing with noisy/incorrect samples.
+
+- **⚙️ Pure Final Code:**  
+  A clean, production-ready version with minimal clutter. Use this if you want a **stable baseline** to improve, modify, or integrate into other systems.
+
+
 ---
 
 ## 📌 Project Goals
